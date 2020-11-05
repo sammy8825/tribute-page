@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Syne Mono', monospace;
+}
+
+header{
+  background: #0077b6;
+  color: white;
+  height: 70px; 
+  text-align: center;
+  font-size: 45px;
+}
+
+.name{
+  text-align: center;
+  margin: 10px 0 10px 0;
+  height: 80px;
+}
+
+.name h3{
+  line-height: 0px;
+}
+
+.about{
+  display: flex;
+}
+
+.about img{
+  width: 45%;
+  height: 300px;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+
+.about p{
+  width: 55%;
+  height: 300px;
+  padding: 10px;
+}
+
+.timeline h3{
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.timeline ul{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+@media only screen and (max-width: 800px){
+  .about{
+    display: block;
+  }
+  .about img{
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  .about p{
+    width: 100%;
+    height: auto;
+  }
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  background: #0077b6;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
